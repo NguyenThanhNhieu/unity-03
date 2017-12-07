@@ -21,7 +21,8 @@ public class BossController : MonoBehaviour
             print ("Boss is awake!");
             //Play Intro animation
             anim.SetBool("bossAwake", true);
-            //Disable Character Movement script
+			print ("test");
+           
         }
     }
 }
